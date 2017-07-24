@@ -91,7 +91,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<div class="Product-overview-header"><b>Product Overview</b><br></div>
 								<div class="Product-overview-content">
 								<?php	
-									if (!empty($result->product_overview)) {
+//									if (!empty($result->product_overview)) {
+									if (isset($value['product_overview'])) {							
 										echo $value['product_overview'];
 									}
 									else {
