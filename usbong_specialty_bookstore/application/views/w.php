@@ -36,6 +36,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					}
 				?>
 				<img class="Product-image" src="<?php echo base_url('assets/images/'.$productType.'/'.$reformattedProductName.'.jpg');?>">				
+				<?php
+					if (($productType=="books") || ($productType=="textbooks")
+							|| ($productType=="manga")) {
+				?>						
+				<div class="row Product-format">
+					<?php
+						echo 'Format: <b>'.$result->format.'</b>';						
+					?>
+				</div>					
+				<div class="row Product-condition">
+					<?php
+						echo 'Condition: <b>'.$result->description.'</b>';						
+					?>
+				</div>
+				<?php 	
+					}
+				?>
 			</div>
 			<div class="col-sm-5">	
 				<div class="row Product-name">
@@ -76,7 +93,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					}
 					?>
 					</b>					
-				</div>					
+				</div>						
 				<div class="row Product-quantity">
 					<label class="Quantity-label">Quantity:</label>
 					<input type="tel" id="quantityParam" class="Quantity-textbox no-spin" 

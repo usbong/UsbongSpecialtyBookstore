@@ -845,6 +845,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	.Product-overview-content {
 		font-size: 16px;
+		color: #312f2d;
 	}
 
 	.Cart-product-quantity {
@@ -873,6 +874,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		padding-right: 8px;
 		color: #463000;
 	}
+
+	.Product-format {
+		color: #312f2d;
+		font-size: 16px;
+		margin-top: 6px;
+		margin-left: 32px;
+		text-align: left;
+	}
+	
+	.Product-condition {
+		color: #312f2d;
+		font-size: 16px;
+		margin-top: 6px;
+		margin-left: 32px;
+		text-align: left;
+	}
+	
 
 	.Product-purchase-button {
 		color: #4b4b4b;
