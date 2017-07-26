@@ -845,7 +845,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	.Product-overview-content {
 		font-size: 16px;
-		color: #312f2d;
+		color: #5c534b;
 	}
 
 	.Cart-product-quantity {
