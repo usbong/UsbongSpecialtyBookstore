@@ -68,7 +68,7 @@ class B extends MY_Controller {
 				else {					
 					echo "<script>
 							    alert('Either the email address or password you entered is incorrect. If you pasted your temporary password from an email, please enter it by typing it in instead.');
-								window.location.href='/usbong_store/';
+								window.location.href='/usbong_specialty_bookstore/'; ///usbong_store/
 						  </script>";
 // 					redirect('/'); //return to homepage					
 // 					$this->books();
